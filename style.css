@@ -251,6 +251,12 @@ header::after {
   top: 300px;
 }
 
+.bg-pattern-3 {
+  position: absolute;
+  bottom: -100px;
+  right: 70px;
+}
+
 .features {
   display: flex;
   flex-direction: row;
@@ -422,6 +428,10 @@ footer {
 
 /* Tablet styles */
 @media (max-width: 1023px) {
+  .bg-pattern-3 {
+    display: none;
+  }
+
   .details {
     max-width: 730px;
     z-index: 1;
