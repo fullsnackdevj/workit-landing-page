@@ -107,3 +107,19 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+
+
+
+/* general styles */
+
+h1, h2, span{
+    font-family: var(--ff-fraunces);
+}
+
+p{
+    font-family: var(--ff-manrope);
+    line-height: 2;
+}
+
+
