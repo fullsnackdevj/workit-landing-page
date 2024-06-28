@@ -1,3 +1,48 @@
+/* custom variables */
+
+:root{
+
+
+    /* colors */
+
+    /* ##primary */
+
+    --clr-pr-darkBlue:hsl(273, 85%, 13%);
+    --clr-pr-lightGreen:hsl(150, 100%, 63%);
+    --clr-pr-darkGray:#584D62;
+
+    /* neutrals */
+
+    --clr-nt-lightGray: hsl(274, 100%, 99%);
+    --clr-nt-white: hsl(0, 0%, 100%);
+
+   /* Typography*/
+
+   /* #heading */
+
+   --ff-fraunces: 'Fraunces', serif;
+
+   /* body */
+
+   --ff-manrope: 'Manrope', sans-serif;
+
+    /* font sizes */
+
+    --fs-reg: 18px;
+    --fs-sm: 32px
+    --fs-md: 56px;
+    --fs-lg: 80px;
+    --fs-xl: 144px;
+
+    /* font weights */
+
+    --fw-reg: 400;
+    --fw-semiBold: 600;
+
+
+}
+
+
 /* css reset */
 
 /*
