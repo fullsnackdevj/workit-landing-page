@@ -117,9 +117,18 @@ h1, h2, span{
     font-family: var(--ff-fraunces);
 }
 
+/* responsive font size that scales between 80px on mobile and 144px on desktop using CSS clamp */
+
+h1 {
+    font-size: clamp(80px, 5vw + 3rem, 144px);
+  }
+
+
+
 p{
     font-family: var(--ff-manrope);
     line-height: 2;
+    color: var(--clr-pr-darkGray);
 }
 
 
